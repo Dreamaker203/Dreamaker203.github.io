@@ -1,0 +1,40 @@
+baseURL = "https://example.org/"
+languageCode = "zh-cn"
+title = "Dreamaker's Blog"
+theme = "PaperMod"
+defaultContentLanguage = "zh-cn"
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  DateFormat = "2006-01-02"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  enableRobotsTXT = true
+  enableGitInfo = true
+  env = "production"
+  description = "Dreamaker 的个人博客，记录学习、考研、生活"
+  keywords = ["Hugo", "博客", "NLP", "考研", "软件工程"]
+  author = "Dreamaker"
+  ShowRssButtonInSectionTermList = true
+
+[params.homeInfoParams]
+  Title = "欢迎 👋"
+  Content = "这里记录学习、考研、生活。"
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 1
+[[menu.main]]
+  name = "归档"
+  url = "/archives/"
+  weight = 2
+[[menu.main]]
+  name = "关于"
+  url = "/about/"
+  weight = 3
