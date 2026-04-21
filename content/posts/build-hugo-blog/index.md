@@ -2,7 +2,7 @@
 title: "Build Hugo Blog"
 date: 2026-04-22T04:06:35+08:00
 lastmod: 2026-04-22T04:06:35+08:00
-draft: true
+draft: false
 description: ""
 summary: ""
 tags: []
