@@ -7,6 +7,7 @@ description: ""
 summary: ""
 tags: []
 categories: []
+comments: true 
 ---
 
 ## 为什么是 Hugo
