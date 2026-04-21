@@ -33,7 +33,7 @@ enableGitInfo = true
 
 [params.giscus]
   repo = "Dreamaker203/blog-comments"
-  repoId = "R_kgDOSI8cEQ"       # ← 这里记得重新从 giscus.app 复制正确的值
+  repoId = "R_kgDOSI8cEQ"       
   category = "Announcements"
   categoryId = "DIC_kwDOSI8cEc4C7YA8"
   mapping = "pathname"
