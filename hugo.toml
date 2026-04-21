@@ -1,9 +1,10 @@
-baseURL = "https://example.org/"
+baseURL = "https://dreamaker203.github.io/"
 languageCode = "zh-cn"
 title = "Dreamaker's Blog"
 theme = "PaperMod"
 defaultContentLanguage = "zh-cn"
-
+enableRobotsTXT = true
+enableGitInfo = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -14,17 +15,35 @@ defaultContentLanguage = "zh-cn"
   ShowShareButtons = false
   ShowCodeCopyButtons = true
   ShowToc = true
-  enableRobotsTXT = true
-  enableGitInfo = true
   env = "production"
   description = "Dreamaker 的个人博客，记录学习、考研、生活"
   keywords = ["Hugo", "博客", "NLP", "考研", "软件工程"]
   author = "Dreamaker"
   ShowRssButtonInSectionTermList = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowWordCount = true
 
 [params.homeInfoParams]
   Title = "欢迎 👋"
   Content = "这里记录学习、考研、生活。"
+
+[params.comments]
+  provider = "giscus"
+
+[params.giscus]
+  repo = "Dreamaker203/blog-comments"
+  repoId = "R_kgDOSI8cEQ"       # ← 这里记得重新从 giscus.app 复制正确的值
+  category = "Announcements"
+  categoryId = "DIC_kwDOSI8cEc4C7YA8"
+  mapping = "pathname"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "top"
+  lightTheme = "light"
+  darkTheme = "dark"
+  lang = "zh-CN"
+  crossorigin = "anonymous"
 
 [[menu.main]]
   name = "文章"
