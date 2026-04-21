@@ -11,6 +11,7 @@ enableGitInfo = true
 
 [params]
   DateFormat = "2006-01-02"
+  comments: true 
   ShowReadingTime = true
   ShowShareButtons = false
   ShowCodeCopyButtons = true
